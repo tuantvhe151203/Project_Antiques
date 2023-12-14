@@ -36,18 +36,26 @@
                     fullname = "ADMIN ĐVCP",
                     userrole = "admin",
                     status = true,
-                }
+                },
+                 new User
+                 {
+                     username = "tuantran",
+                     password = "0192023A7BBD73250516F069DF18B500", // = admin123
+                     fullname = "TuanTran",
+                     userrole = "admin",
+                     status = true,
+                 }
                 );
             context.Tags.AddOrUpdate(x => x.TagID,
-                new Tag { TagID = 1, TagName = "Kiến trúc" },
-                new Tag { TagID = 2, TagName = "Chất liệu" },
-                new Tag { TagID = 3, TagName = "Binh bị" },
-                new Tag { TagID = 4, TagName = "Quân sự" },
-                new Tag { TagID = 5, TagName = "Thần thoại" },
-                new Tag { TagID = 6, TagName = "Văn hóa" },
-                new Tag { TagID = 7, TagName = "Phong tục" },
-                new Tag { TagID = 8, TagName = "Tôn giáo" },
-                new Tag { TagID = 9, TagName = "Trang phục" }
+                new Tag { TagID = 1, TagName = "Kiến trúc1" },
+                new Tag { TagID = 2, TagName = "Chất liệu1" },
+                new Tag { TagID = 3, TagName = "Binh bị1" },
+                new Tag { TagID = 4, TagName = "Quân sự1" },
+                new Tag { TagID = 5, TagName = "Thần thoại1" },
+                new Tag { TagID = 6, TagName = "Văn hóa1" },
+                new Tag { TagID = 7, TagName = "Phong tục1" },
+                new Tag { TagID = 8, TagName = "Tôn giáo1" },
+                new Tag { TagID = 9, TagName = "Trang phục1" }
                 );
             context.SaveChanges();
         }

@@ -31,8 +31,8 @@
                 <div class="oflow-hidden color-ash font-9 text-sm-center ptb-sm-5">
 
                     <ul class="float-left list-a-plr-10 list-a-plr-sm-5 list-a-ptb-15 list-a-ptb-sm-10 toplink">
-                        <li><a class="pl-0 pl-sm-10" href="https://www.facebook.com/groups/Vietnam.ancient">Về chúng tôi</a></li>
-                        <li><a href="https://www.facebook.com/daivietcophong">Liên hệ</a></li>
+                        @*<li><a class="pl-0 pl-sm-10" href="https://www.facebook.com/groups/Vietnam.ancient">Về chúng tôi</a></li>
+                        <li><a href="https://www.facebook.com/daivietcophong">Liên hệ</a></li>*@
                         @if (Request.IsAuthenticated)
                         {
                             <li>@Html.ActionLink("Admin Panel", "Index", "Admin", null, new { @class = "nav-link" })</li>
@@ -82,8 +82,8 @@
                         <li><a href="/danh-muc/">XEM TẤT CẢ</a></li>
                     </ul>
                 </li>
-                <li><a href="/danh-muc/du-an-project-12">PROJECT</a></li>
-                <li><a href="/tim-kiem">TÌM NÂNG CAO</a></li>
+                @*<li><a href="/danh-muc/du-an-project-12">PROJECT</a></li>
+                <li><a href="/tim-kiem">TÌM NÂNG CAO</a></li>*@
 
             </ul>
 
@@ -135,13 +135,13 @@
                         <div class="mb-30">
                             <a href="#"><img src="~/Content/web/images/logo-white.png"></a>
                             <p class="mtb-20 color-ccc">
-                                Đại Việt Cổ Phong là hội chuyên nghiên cứu về văn hóa,phong tục,kiến trúc cũng như lịch sử của Việt Nam thời xưa.
+                                Xin chào quý vị, mọi người có thể tìm hiểu các thông tin về các đồ vật trong bảo tàng.
                             </p>
-                            <p class="color-ash">
+                            @*<p class="color-ash">
                                 Copyright &copy;
                                 <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" rel="nofollow" style="color:#aaa">Colorlib</a>
 
-                            </p>
+                            </p>*@
                         </div><!-- mb-30 -->
                     </div><!-- col-md-4 -->
 
